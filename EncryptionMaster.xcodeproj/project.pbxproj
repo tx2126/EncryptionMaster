@@ -1,0 +1,471 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F5AF986019E2189B000D6D96 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5AF985F19E2189B000D6D96 /* Foundation.framework */; };
+		F5AF986219E2189B000D6D96 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5AF986119E2189B000D6D96 /* CoreGraphics.framework */; };
+		F5AF986419E2189B000D6D96 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5AF986319E2189B000D6D96 /* UIKit.framework */; };
+		F5AF986A19E2189B000D6D96 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F5AF986819E2189B000D6D96 /* InfoPlist.strings */; };
+		F5AF986C19E2189B000D6D96 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F5AF986B19E2189B000D6D96 /* main.m */; };
+		F5AF987019E2189B000D6D96 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F5AF986F19E2189B000D6D96 /* AppDelegate.m */; };
+		F5AF987319E2189B000D6D96 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5AF987119E2189B000D6D96 /* Main.storyboard */; };
+		F5AF987619E2189B000D6D96 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5AF987519E2189B000D6D96 /* ViewController.m */; };
+		F5AF987819E2189B000D6D96 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5AF987719E2189B000D6D96 /* Images.xcassets */; };
+		F5AF987F19E2189B000D6D96 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5AF987E19E2189B000D6D96 /* XCTest.framework */; };
+		F5AF988019E2189B000D6D96 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5AF985F19E2189B000D6D96 /* Foundation.framework */; };
+		F5AF988119E2189B000D6D96 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5AF986319E2189B000D6D96 /* UIKit.framework */; };
+		F5AF988919E2189B000D6D96 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F5AF988719E2189B000D6D96 /* InfoPlist.strings */; };
+		F5AF988B19E2189B000D6D96 /* EncryptionMasterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F5AF988A19E2189B000D6D96 /* EncryptionMasterTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F5AF988219E2189B000D6D96 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F5AF985419E2189B000D6D96 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F5AF985B19E2189B000D6D96;
+			remoteInfo = EncryptionMaster;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F5AF985C19E2189B000D6D96 /* EncryptionMaster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EncryptionMaster.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5AF985F19E2189B000D6D96 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F5AF986119E2189B000D6D96 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F5AF986319E2189B000D6D96 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F5AF986719E2189B000D6D96 /* EncryptionMaster-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EncryptionMaster-Info.plist"; sourceTree = "<group>"; };
+		F5AF986919E2189B000D6D96 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F5AF986B19E2189B000D6D96 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F5AF986D19E2189B000D6D96 /* EncryptionMaster-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EncryptionMaster-Prefix.pch"; sourceTree = "<group>"; };
+		F5AF986E19E2189B000D6D96 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F5AF986F19E2189B000D6D96 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F5AF987219E2189B000D6D96 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F5AF987419E2189B000D6D96 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F5AF987519E2189B000D6D96 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F5AF987719E2189B000D6D96 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F5AF987D19E2189B000D6D96 /* EncryptionMasterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EncryptionMasterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5AF987E19E2189B000D6D96 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		F5AF988619E2189B000D6D96 /* EncryptionMasterTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EncryptionMasterTests-Info.plist"; sourceTree = "<group>"; };
+		F5AF988819E2189B000D6D96 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F5AF988A19E2189B000D6D96 /* EncryptionMasterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EncryptionMasterTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F5AF985919E2189B000D6D96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5AF986219E2189B000D6D96 /* CoreGraphics.framework in Frameworks */,
+				F5AF986419E2189B000D6D96 /* UIKit.framework in Frameworks */,
+				F5AF986019E2189B000D6D96 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5AF987A19E2189B000D6D96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5AF987F19E2189B000D6D96 /* XCTest.framework in Frameworks */,
+				F5AF988119E2189B000D6D96 /* UIKit.framework in Frameworks */,
+				F5AF988019E2189B000D6D96 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F5AF985319E2189B000D6D96 = {
+			isa = PBXGroup;
+			children = (
+				F5AF986519E2189B000D6D96 /* EncryptionMaster */,
+				F5AF988419E2189B000D6D96 /* EncryptionMasterTests */,
+				F5AF985E19E2189B000D6D96 /* Frameworks */,
+				F5AF985D19E2189B000D6D96 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F5AF985D19E2189B000D6D96 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F5AF985C19E2189B000D6D96 /* EncryptionMaster.app */,
+				F5AF987D19E2189B000D6D96 /* EncryptionMasterTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F5AF985E19E2189B000D6D96 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F5AF985F19E2189B000D6D96 /* Foundation.framework */,
+				F5AF986119E2189B000D6D96 /* CoreGraphics.framework */,
+				F5AF986319E2189B000D6D96 /* UIKit.framework */,
+				F5AF987E19E2189B000D6D96 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F5AF986519E2189B000D6D96 /* EncryptionMaster */ = {
+			isa = PBXGroup;
+			children = (
+				F5AF986E19E2189B000D6D96 /* AppDelegate.h */,
+				F5AF986F19E2189B000D6D96 /* AppDelegate.m */,
+				F5AF987119E2189B000D6D96 /* Main.storyboard */,
+				F5AF987419E2189B000D6D96 /* ViewController.h */,
+				F5AF987519E2189B000D6D96 /* ViewController.m */,
+				F5AF987719E2189B000D6D96 /* Images.xcassets */,
+				F5AF986619E2189B000D6D96 /* Supporting Files */,
+			);
+			path = EncryptionMaster;
+			sourceTree = "<group>";
+		};
+		F5AF986619E2189B000D6D96 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F5AF986719E2189B000D6D96 /* EncryptionMaster-Info.plist */,
+				F5AF986819E2189B000D6D96 /* InfoPlist.strings */,
+				F5AF986B19E2189B000D6D96 /* main.m */,
+				F5AF986D19E2189B000D6D96 /* EncryptionMaster-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F5AF988419E2189B000D6D96 /* EncryptionMasterTests */ = {
+			isa = PBXGroup;
+			children = (
+				F5AF988A19E2189B000D6D96 /* EncryptionMasterTests.m */,
+				F5AF988519E2189B000D6D96 /* Supporting Files */,
+			);
+			path = EncryptionMasterTests;
+			sourceTree = "<group>";
+		};
+		F5AF988519E2189B000D6D96 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F5AF988619E2189B000D6D96 /* EncryptionMasterTests-Info.plist */,
+				F5AF988719E2189B000D6D96 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F5AF985B19E2189B000D6D96 /* EncryptionMaster */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5AF988E19E2189B000D6D96 /* Build configuration list for PBXNativeTarget "EncryptionMaster" */;
+			buildPhases = (
+				F5AF985819E2189B000D6D96 /* Sources */,
+				F5AF985919E2189B000D6D96 /* Frameworks */,
+				F5AF985A19E2189B000D6D96 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EncryptionMaster;
+			productName = EncryptionMaster;
+			productReference = F5AF985C19E2189B000D6D96 /* EncryptionMaster.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F5AF987C19E2189B000D6D96 /* EncryptionMasterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5AF989119E2189B000D6D96 /* Build configuration list for PBXNativeTarget "EncryptionMasterTests" */;
+			buildPhases = (
+				F5AF987919E2189B000D6D96 /* Sources */,
+				F5AF987A19E2189B000D6D96 /* Frameworks */,
+				F5AF987B19E2189B000D6D96 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F5AF988319E2189B000D6D96 /* PBXTargetDependency */,
+			);
+			name = EncryptionMasterTests;
+			productName = EncryptionMasterTests;
+			productReference = F5AF987D19E2189B000D6D96 /* EncryptionMasterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F5AF985419E2189B000D6D96 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = TXStudio;
+				TargetAttributes = {
+					F5AF987C19E2189B000D6D96 = {
+						TestTargetID = F5AF985B19E2189B000D6D96;
+					};
+				};
+			};
+			buildConfigurationList = F5AF985719E2189B000D6D96 /* Build configuration list for PBXProject "EncryptionMaster" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F5AF985319E2189B000D6D96;
+			productRefGroup = F5AF985D19E2189B000D6D96 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F5AF985B19E2189B000D6D96 /* EncryptionMaster */,
+				F5AF987C19E2189B000D6D96 /* EncryptionMasterTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F5AF985A19E2189B000D6D96 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5AF987819E2189B000D6D96 /* Images.xcassets in Resources */,
+				F5AF986A19E2189B000D6D96 /* InfoPlist.strings in Resources */,
+				F5AF987319E2189B000D6D96 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5AF987B19E2189B000D6D96 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5AF988919E2189B000D6D96 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F5AF985819E2189B000D6D96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5AF987619E2189B000D6D96 /* ViewController.m in Sources */,
+				F5AF987019E2189B000D6D96 /* AppDelegate.m in Sources */,
+				F5AF986C19E2189B000D6D96 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5AF987919E2189B000D6D96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5AF988B19E2189B000D6D96 /* EncryptionMasterTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F5AF988319E2189B000D6D96 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F5AF985B19E2189B000D6D96 /* EncryptionMaster */;
+			targetProxy = F5AF988219E2189B000D6D96 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F5AF986819E2189B000D6D96 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5AF986919E2189B000D6D96 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F5AF987119E2189B000D6D96 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5AF987219E2189B000D6D96 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F5AF988719E2189B000D6D96 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5AF988819E2189B000D6D96 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F5AF988C19E2189B000D6D96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F5AF988D19E2189B000D6D96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F5AF988F19E2189B000D6D96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EncryptionMaster/EncryptionMaster-Prefix.pch";
+				INFOPLIST_FILE = "EncryptionMaster/EncryptionMaster-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F5AF989019E2189B000D6D96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EncryptionMaster/EncryptionMaster-Prefix.pch";
+				INFOPLIST_FILE = "EncryptionMaster/EncryptionMaster-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		F5AF989219E2189B000D6D96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/EncryptionMaster.app/EncryptionMaster";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EncryptionMaster/EncryptionMaster-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "EncryptionMasterTests/EncryptionMasterTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		F5AF989319E2189B000D6D96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/EncryptionMaster.app/EncryptionMaster";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EncryptionMaster/EncryptionMaster-Prefix.pch";
+				INFOPLIST_FILE = "EncryptionMasterTests/EncryptionMasterTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F5AF985719E2189B000D6D96 /* Build configuration list for PBXProject "EncryptionMaster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5AF988C19E2189B000D6D96 /* Debug */,
+				F5AF988D19E2189B000D6D96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5AF988E19E2189B000D6D96 /* Build configuration list for PBXNativeTarget "EncryptionMaster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5AF988F19E2189B000D6D96 /* Debug */,
+				F5AF989019E2189B000D6D96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F5AF989119E2189B000D6D96 /* Build configuration list for PBXNativeTarget "EncryptionMasterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5AF989219E2189B000D6D96 /* Debug */,
+				F5AF989319E2189B000D6D96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F5AF985419E2189B000D6D96 /* Project object */;
+}
